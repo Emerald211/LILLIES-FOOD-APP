@@ -22,7 +22,7 @@ function Dashboard() {
       .then((data) => {
         setuserdata(data)
       })
-  }, [userdata])
+  }, [userdata, userid])
 
 
 
