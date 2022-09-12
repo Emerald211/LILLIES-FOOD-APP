@@ -101,7 +101,7 @@ function Addtocart() {
   return (
     <div className=' flex flex-col justify-center items-center fixed top-0 right-0 z-10 addcart'>
       <div className=' blur z-20'></div>
-      <div className='bg-white pt-20 flex flex-col absolute  items-center z-30  top-0 right-0 product-info text-center '>
+      <div className='bg-white pt-20 flex flex-col  absolute  items-center z-30  top-0 right-0 product-info text-center '>
         <div onClick={() => {
           navigate("/dashboard")
           

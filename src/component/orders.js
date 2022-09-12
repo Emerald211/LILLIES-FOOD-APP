@@ -54,7 +54,7 @@ const Orders = () => {
   return (
     <div className=" flex flex-col justify-center items-center fixed top-0 right-0 z-10 order">
       <div className="fade z-20"></div>
-      <div className="bg-white  px-8 pt-20 flex flex-col absolute  z-30  top-0 right-0 order-list ">
+      <div className="bg-white overflow-scroll  px-8 pt-20 flex flex-col absolute  z-30  top-0 right-0 order-list ">
         <div
           onClick={() => {
             navigate("/dashboard");
