@@ -22,7 +22,7 @@ function Addtocart() {
         console.log(data)
       setproduct(data)
     })
-  }, [])
+  })
 
   useEffect(() => {
     fetch(`http://localhost:9000/users/${userid}`)
@@ -33,7 +33,7 @@ function Addtocart() {
       } 
         
     );
-  }, []);
+  },);
 
 
   const increment = () => {
