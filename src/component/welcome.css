@@ -1,0 +1,119 @@
+.welcome{
+height: 100vh;
+width: 100vw;
+}
+
+
+.wel{
+   background-image: url("./images/welcomebg.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 50%;
+   opacity: 0.7;
+   
+}
+
+
+.login{
+    width: 50%;
+}
+
+
+
+.login form{
+    width: 70%;
+}
+
+.login h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #00302E;
+}
+
+.login h2{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.login span {
+    text-transform: uppercase ;
+    font-weight: bold;
+    color: #00302E;
+    cursor: pointer;
+}
+
+.login span:hover{
+    text-decoration: underline;
+}
+.login input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FBDDBB82;
+    padding: 3px 20px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    background: #00302E;
+    border: none !important;
+}
+
+.btn:hover{
+    background: black;
+    cursor: pointer;
+}
+
+.register{
+    width: 50%;
+}
+
+.register form{
+    width: 70%;
+}
+
+.register h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #00302E;
+}
+
+.register h2{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.register span {
+    text-transform: uppercase ;
+    font-weight: bold;
+    color: #00302E;
+    cursor: pointer;
+}
+
+.register span:hover{
+    text-decoration: underline;
+}
+.register input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FBDDBB82;
+    padding: 3px 20px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 930px) {
+    .wel{
+        display: none;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    .register {
+        width: 100%;
+    }
+}

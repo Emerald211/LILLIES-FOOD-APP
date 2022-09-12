@@ -1,0 +1,128 @@
+
+.App{
+  background: #00302E;
+  min-height: 100vh;
+  padding: 0 4rem;
+ 
+
+}
+
+.App p {
+  font-family:  'Poppins', sans-serif;
+  font-weight:100;
+
+}
+
+.App h2 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.App ul li {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.App ul button {
+  color: #00302E;
+}
+
+.App ul button:hover {
+  background: none;
+  border: 2px solid rgb(252, 252, 211);
+  color: white;
+}
+
+.banner h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+footer li {
+  font-size: 0.7rem;
+}
+
+.sidenav {
+  display: none;
+}
+
+.opac {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+ .App {
+  padding: 0 3rem;
+ }
+
+ .menu{
+  display: flex;
+ }
+
+ .App ul {
+  display: none;
+ }
+
+ footer li {
+  font-size: 1.2rem;
+ }
+
+ .ord img {
+  width: 40% !important;
+ }
+
+ .sidenav{
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: black;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  z-index: 2;
+  overflow-x: hidden;
+  color: white;
+  padding: 20px;
+  transition: all 1s;
+
+}
+.sidenav li {
+  list-style: none;
+  padding: 20px;
+}
+
+.opac{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.banner {
+  margin-top: 80px;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 1024px) {
+  .notified .mail {
+    width: 50% !important;
+  }
+}
+

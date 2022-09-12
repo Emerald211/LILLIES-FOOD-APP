@@ -1,0 +1,147 @@
+
+
+.main{
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.addcart {
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    display: block;
+}
+
+.blur{
+   width: 100vw;
+   height: 100vh;
+    background: rgba(32, 32, 32, 0.4);
+}
+
+.product-info{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.product-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+width: 48px;
+background: #F3C294;
+line-height: initial;
+}
+
+.addtocart{
+    width: 144px;
+height: 60px;
+background: #00302E;
+display: flex;
+}
+.n-text{
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.cart-no {
+    display: none;
+} 
+@media screen and (max-width: 1024px) {
+    .dashboard-menu{
+        display: none;
+    }
+
+    .cart-no {
+        display: block;
+    }
+
+    .n-text{ 
+        display: block;
+        margin-top: 40px;
+    }
+
+    .product-info {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .n-greeting{
+        font-size: 0.7rem;
+        font-weight:900;
+    }
+    .n-meal{
+        display: none;
+    }
+
+    .mobile-nav {
+        height: 100%;
+        width: 0; 
+        position: fixed; 
+        z-index: 2; 
+        top: 0; 
+        left: 0;
+        background-color: #111; 
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s; 
+        display: block;
+      }
+
+      .nav-blur {
+        height: 100%;
+        width: 0;
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 1;
+        background: rgba(41, 40, 40, 0.7);
+      }
+      
+
+      .mobile-nav h1 {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+    
+      .mobile-nav h1:hover {
+        color: #f1f1f1;
+      }
+      
+      .mobile-nav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .mobile-menu {
+        display: block;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        width: 60px;
+        height: 40px;
+        text-align: center;
+    }
+}
