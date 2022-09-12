@@ -156,7 +156,7 @@ const Cart = () => {
           <h1 className="font-bold">Total: N{ totalitemamount}</h1>
         </div>
 
-        <button onClick={checkout} className=" bg-green-900 mt-7 h-10 font-bold text-white">Checkout</button>
+        <button onClick={checkout} className=" bg-green-900 mb-10 mt-7 h-10 font-bold text-white">Checkout</button>
 
         <div style={{display: success ? "flex" : "none"}} className=" checkout-success absolute  justify-center items-center left-0 top-0 w-full h-full bg-slate-300 ">
           <FaTimes onClick={() => setsuccess(false)} className=" absolute top-8 text-3xl cursor-pointer left-8" />
