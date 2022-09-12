@@ -104,7 +104,7 @@ const Cart = () => {
   return (
     <div className=" flex flex-col justify-center items-center fixed top-0 right-0 z-10 cart">
       <div className=" fade z-20"></div>
-      <div className="bg-white overflow-scroll  px-8 pt-20 flex flex-col absolute  z-30  top-0 right-0 cart-list ">
+      <div className="bg-white overflow-scroll mb-10  px-8 pt-20 flex flex-col absolute  z-30  top-0 right-0 cart-list ">
       <div onClick={() => {
           navigate("/dashboard")
           

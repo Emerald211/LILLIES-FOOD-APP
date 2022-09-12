@@ -4,33 +4,49 @@
       "username": "Emmanuel",
       "email": "emmanueladeribigbe@gmail.com",
       "password": "Emma",
-      "cart": [],
-      "order": [
-        {
-          "name": "Tasty Burger",
-          "image": "https://images.unsplash.com/photo-1615917124838-1af8a2aaae09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-          "quantity": 3,
-          "price": 3500,
-          "subtotal": 10500,
-          "id": 2032
-        },
+      "cart": [
         {
           "name": "Tasty Burger",
           "image": "https://images.unsplash.com/photo-1615917124838-1af8a2aaae09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
           "quantity": 2,
           "price": 3500,
           "subtotal": 7000,
-          "id": 146
+          "id": 1057
         },
         {
           "name": "Meat balls",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
-          "quantity": 3,
+          "quantity": 4,
           "price": 3000,
-          "subtotal": 9000,
-          "id": 1686
+          "subtotal": 12000,
+          "id": 2846
+        },
+        {
+          "name": "Stir Fry Pasta",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "quantity": 1,
+          "price": 4500,
+          "subtotal": 4500,
+          "id": 2523
+        },
+        {
+          "name": "Blueberry Toasts and smoothie",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+          "quantity": 3,
+          "price": 3500,
+          "subtotal": 10500,
+          "id": 1975
+        },
+        {
+          "name": "Tasty Burger",
+          "image": "https://images.unsplash.com/photo-1615917124838-1af8a2aaae09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+          "quantity": 3,
+          "price": 3500,
+          "subtotal": 10500,
+          "id": 1903
         }
       ],
+      "order": [],
       "id": 1
     }
   ],
