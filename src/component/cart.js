@@ -22,8 +22,7 @@ const Cart = () => {
         setcart(data.cart);
         console.log(data.cart);
       })
-      .then(() => {});
-  }, []);
+  });
 
 
   const itemsAmount = cart.map((eachitem) => {
