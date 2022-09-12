@@ -119,8 +119,6 @@ function Addtocart() {
           <h2>10 -20 mins </h2>
 
           <h2>12 pics left</h2>
-
-          <h2></h2>
           
         </div>
 
