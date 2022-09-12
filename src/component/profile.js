@@ -13,7 +13,7 @@ function Profile() {
       .then((data) => {
         setuserdata(data);
       });
-  }, [userdata]);
+  }, [userdata, userid]);
 
   const name = `${userdata.username}`;
 

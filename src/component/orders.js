@@ -21,7 +21,7 @@ const Orders = () => {
         setuser(data);
         setorders(data.order);
       });
-  }, []);
+  });
 
   const deleteitem = (id) => {
     const filteredorders = orders.filter((eachorder) => {
