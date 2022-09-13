@@ -4,17 +4,17 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 
 ## Built with 
 
-<div>
+<div style="display: flex:">
   <div style="display: flex;">
     <div>
-     <img src="https://user-images.githubusercontent.com/99744754/190025085-459f83d3-20f9-4547-9872-a0a1ac9fd4d6.png" width="70" height="70">
+       <img src="https://user-images.githubusercontent.com/99744754/190025085-459f83d3-20f9-4547-9872-a0a1ac9fd4d6.png" width="70" height="70">
 
-[ReactJS](https://github.com/facebook/react) 
+      [ReactJS](https://github.com/facebook/react) 
     </div>
     
     <div> 
-  <img src="https://user-images.githubusercontent.com/99744754/190026041-d0ec3bf8-871e-41be-bac7-0bfa02a45a31.png" width="70" height="70">
- [Tailwind Css](https://tailwindcss.com/) 
+      <img src="https://user-images.githubusercontent.com/99744754/190026041-d0ec3bf8-871e-41be-bac7-0bfa02a45a31.png" width="70" height="70">
+       [Tailwind Css](https://tailwindcss.com/) 
     
     </div>
     
