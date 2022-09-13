@@ -7,9 +7,10 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 
 ## Built with 
 
-<div style="width:60px ; height:60px">
+![test image size]<img src="https://user-images.githubusercontent.com/99744754/190025085-459f83d3-20f9-4547-9872-a0a1ac9fd4d6.png" width="40" height="79">
+
 ![React-icon svg](https://user-images.githubusercontent.com/99744754/190025085-459f83d3-20f9-4547-9872-a0a1ac9fd4d6.png)
-<div>
+
 
 
 
