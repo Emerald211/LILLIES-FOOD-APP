@@ -7,6 +7,8 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 
 ## Built with 
 
+https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png
+
 [ReactJS](https://github.com/facebook/react) 
 
 [Tailwind Css](https://tailwindcss.com/) 
@@ -14,7 +16,7 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 [JSON-SERVER](https://www.npmjs.com/package/json-server) 
 
 
-[HEROKU](heroku.com) 
+[HEROKU](https://heroku.com) 
 
 
 
