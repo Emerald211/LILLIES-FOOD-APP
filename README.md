@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# LILLIES FOOD APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Api (JSON-SERVER) and HEROKU as Backend Server for CRUD operations.
+
+![2022-09-13 (17)](https://user-images.githubusercontent.com/99744754/190022571-2b71dfb1-5afb-4c5e-a550-c5de08a5d291.png)
+
 
 ## Available Scripts
 
