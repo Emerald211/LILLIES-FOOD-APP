@@ -7,11 +7,6 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 
 ## Built with 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
 Open [ReactJS](ReactJS) to view it in your browser.
 
 The page will reload when you make changes.\
