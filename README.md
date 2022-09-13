@@ -1,6 +1,7 @@
 # LILLIES FOOD APP
 
 This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Api (JSON-SERVER) and HEROKU as Backend Server for CRUD operations.
+This Web App saves your data and can as well work on other devices with your exact information. It also Keeps track of all your orders and your cart history, and as well user friendly application
 
 ## Built with 
 
