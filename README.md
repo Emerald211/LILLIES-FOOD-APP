@@ -7,7 +7,16 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 
 ## Built with 
 
-Open [ReactJS](ReactJS) to view it in your browser.
+[ReactJS](https://github.com/facebook/react) 
+
+[Tailwind Css](https://tailwindcss.com/) 
+
+[JSON-SERVER](https://www.npmjs.com/package/json-server) 
+
+
+[HEROKU](heroku.com) 
+
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
