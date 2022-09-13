@@ -16,16 +16,16 @@ function Addtocart() {
   const {id} = useParams()
 
   useEffect(() => {
-    fetch(`http://localhost:9000/menu/${id}`)
+    fetch(`https://lillies-food-app-backend.herokuapp.com/menu/${id}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data)
       setproduct(data)
     })
-  })
+  }, [id])
 
   useEffect(() => {
-    fetch(`http://localhost:9000/users/${userid}`)
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`)
       .then((res) => res.json())
       .then((data) => {
         setuser(data)
@@ -33,7 +33,7 @@ function Addtocart() {
       } 
         
     );
-  },);
+  },[userid]);
 
 
   const increment = () => {
@@ -81,7 +81,7 @@ function Addtocart() {
       alert("Put a valid quantity of items")
     } else {
       
-    fetch(`http://localhost:9000/users/${userid}`, {
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updateuserinfo),

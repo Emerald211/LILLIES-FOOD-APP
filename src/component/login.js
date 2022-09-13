@@ -10,7 +10,7 @@ function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:9000/users")
+    fetch("https://lillies-food-app-backend.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => {
         setusers(data);

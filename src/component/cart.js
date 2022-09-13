@@ -15,14 +15,14 @@ const Cart = () => {
   let navigate = useNavigate()
 
   useEffect(() => {
-    fetch(`http://localhost:9000/users/${userid}`)
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`)
       .then((res) => res.json())
       .then((data) => {
         setuser(data);
         setcart(data.cart);
         console.log(data.cart);
       })
-  });
+  }, [userid]);
 
 
   const itemsAmount = cart.map((eachitem) => {
@@ -62,7 +62,7 @@ const Cart = () => {
   order: []
     }
     
-    fetch(`http://localhost:9000/users/${userid}`, {
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updateuserinfo),
@@ -89,7 +89,7 @@ const Cart = () => {
       
           }
           
-          fetch(`http://localhost:9000/users/${userid}`, {
+          fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updateuserinfo),

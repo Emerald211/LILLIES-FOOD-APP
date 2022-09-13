@@ -8,7 +8,7 @@ function Profile() {
   const userid = JSON.parse(localStorage.getItem("userid"));
 
   useEffect(() => {
-    fetch(`http://localhost:9000/users/${userid}`)
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`)
       .then((res) => res.json())
       .then((data) => {
         setuserdata(data);

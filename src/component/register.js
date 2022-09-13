@@ -26,7 +26,7 @@ function Register() {
 
    
 
-    fetch("http://localhost:9000/users", {
+    fetch("https://lillies-food-app-backend.herokuapp.com/users", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

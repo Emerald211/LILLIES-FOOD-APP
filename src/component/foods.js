@@ -7,7 +7,7 @@ function Foods() {
 
 
   useEffect(() => {
-    fetch(`http://localhost:9000/menu`)
+    fetch(`https://lillies-food-app-backend.herokuapp.com/menu`)
     .then((res) => res.json())
     .then((data) => {
     setmenu(data)

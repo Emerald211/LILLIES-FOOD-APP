@@ -1,6 +1,13 @@
 {
   "users": [
-
+    {
+      "username": "Ayo",
+      "email": "ayo@gmail.com",
+      "password": "ayo",
+      "cart": [],
+      "order": [],
+      "id": 1
+    }
   ],
   "menu": [
     {

@@ -15,7 +15,7 @@ const Orders = () => {
   let navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:9000/users/${userid}`)
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`)
       .then((res) => res.json())
       .then((data) => {
         setuser(data);
@@ -40,7 +40,7 @@ const Orders = () => {
       order: filteredorders,
     };
 
-    fetch(`http://localhost:9000/users/${userid}`, {
+    fetch(`https://lillies-food-app-backend.herokuapp.com/users/${userid}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updateuserinfo),
