@@ -1,9 +1,6 @@
 # LILLIES FOOD APP
 
 This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Api (JSON-SERVER) and HEROKU as Backend Server for CRUD operations.
-![2022-09-13 (17)](https://user-images.githubusercontent.com/99744754/190023181-36b788b5-7edd-4187-9877-77ccaa8ebe14.png)
-
-
 
 ## Built with 
 
@@ -28,11 +25,9 @@ This is a Simple Food E-commerce App Built with React.js as well as Fake Rest Ap
 [HEROKU](https://heroku.com) 
 
 
+### `View this project`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
+![2022-09-13 (17)](https://user-images.githubusercontent.com/99744754/190023181-36b788b5-7edd-4187-9877-77ccaa8ebe14.png)
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
