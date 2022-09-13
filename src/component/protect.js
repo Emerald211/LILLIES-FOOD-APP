@@ -9,8 +9,6 @@ const Auth = () => {
 
 function Protectroute() {
   const userAuth = Auth();
-
-  console.log(userAuth);
   return <div>{userAuth ? <Outlet /> : <Navigate to="/welcome/login" />}</div>;
 }
 

@@ -83,7 +83,7 @@ footer li {
   top: 0;
   right: 0;
   height: 100%;
-  background: black;
+  background: rgb(255, 255, 255);
   display: none;
   flex-direction: column;
   align-items: center;
@@ -91,9 +91,10 @@ footer li {
   font-weight: bold;
   z-index: 2;
   overflow-x: hidden;
-  color: white;
+  color: #00302E;
   padding: 20px;
   transition: all 1s;
+  font-family:'Poppins', sans-serif ;
 
 }
 .sidenav li {

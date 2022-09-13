@@ -20,7 +20,6 @@ const Cart = () => {
       .then((data) => {
         setuser(data);
         setcart(data.cart);
-        console.log(data.cart);
       })
   }, [userid]);
 
@@ -29,13 +28,13 @@ const Cart = () => {
       return(eachitem.subtotal)
   })
 
-  console.log(itemsAmount)
+
 
   const totalitemamount = itemsAmount.reduce((sum, value) => {
       return( sum + value)
   }, 0)
 
-  console.log(totalitemamount)
+
 
 
 
@@ -70,7 +69,6 @@ const Cart = () => {
     
     setcart(filteredcart)
 
-    console.log(filteredcart)
   }
 
   const checkout = () => {

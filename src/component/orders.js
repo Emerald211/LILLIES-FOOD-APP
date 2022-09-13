@@ -47,8 +47,6 @@ const Orders = () => {
     });
 
     setorders(filteredorders);
-
-    console.log(filteredorders);
   };
 
   return (

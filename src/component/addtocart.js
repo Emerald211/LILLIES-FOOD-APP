@@ -19,7 +19,6 @@ function Addtocart() {
     fetch(`https://lillies-food-app-backend.herokuapp.com/menu/${id}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
       setproduct(data)
     })
   }, [id])
@@ -29,7 +28,7 @@ function Addtocart() {
       .then((res) => res.json())
       .then((data) => {
         setuser(data)
-        console.log(data) 
+ 
       } 
         
     );
@@ -74,8 +73,6 @@ function Addtocart() {
 
 
     }
-
-    console.log(user.username)
 
     if (itemsnumber === 0) {
       alert("Put a valid quantity of items")
