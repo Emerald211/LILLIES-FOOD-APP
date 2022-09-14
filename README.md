@@ -15,7 +15,7 @@ This is a Simple Ecommerce Website built with react.js and as well as a fake res
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [Emmanuel Aderibigbe](https://github.com/Emerald211) - aderibigbeemmanuel2004@gmail.com
 
 Project Link: [lilliesfoods.com](https://lilliesfoods.netlify.app/)
 
