@@ -19,11 +19,6 @@ Your Name - [Emmanuel Aderibigbe](https://github.com/Emerald211) - aderibigbeemm
 
 Project Link: [lilliesfoods.com](https://lilliesfoods.netlify.app/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 
 
