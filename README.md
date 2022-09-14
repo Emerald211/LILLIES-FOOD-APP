@@ -5,7 +5,7 @@
 
 ### LILLIES FOOD APP
 
-This is a Simple Ecommerce Website built with react.js and as well as a fake rest api (Json-server) and heroku for CRUD operations. This app keeps tracks of your orders and cart informationS across all devices and also very user friendly
+This is a Simple Ecommerce Website built with react.js and as well as a fake rest api (Json-server) and heroku for CRUD operations. This app keeps tracks of your orders and cart information across all devices and also very user friendly
 
 ### Built With
 
